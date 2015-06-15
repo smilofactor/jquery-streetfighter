@@ -22,12 +22,12 @@ body {
 	width: 654px;
 }
 
-.ryu-ready {
-	background-image: url('../images/ryu-ready-position.gif');
-}
-
 .ryu-still {
 	background-image: url('../images/ryu-standing-still.png');
+}
+
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');
 	display: none;
 }
 
