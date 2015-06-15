@@ -6,6 +6,7 @@ $(function() {
 
 		$(".ryu-ready")
 		.mousedown(function() {
+			$(".ryu-still").hide();
 			$(".ryu-ready").hide();
 			$(".ryu-throwing").show();
 
