@@ -10,6 +10,7 @@ $(function() {
 			$(".ryu-ready").hide();
 			$(".ryu-throwing").show();
 		});
+	});
 
 			$(".ryu-throwing")
 			.mouseup(function() {
@@ -17,7 +18,7 @@ $(function() {
 				$(".ryu-ready").hide();
 				$(".ryu-still").show();
 			});
-	});
+
 
     $(".ryu-ready")
     .mouseleave(function() {
