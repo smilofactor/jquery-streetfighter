@@ -17,6 +17,14 @@ body {
 	padding-left: 100px;
 }
 
+.ryu-still,
+.ryu-ready,
+.ryu-throwing,
+.ryu-cool,
+.hadouken {
+	background-repeat: no-repeat;
+}
+
 .ryu-image {
 	position: absolute;
 	border: 2px solid blue;
@@ -41,6 +49,17 @@ body {
 .ryu-cool {
 	background-image: url('../images/ryu-cool.gif');
 	display: none;
+}
+
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: absolute;
+	z-index: 10;
+	top: 275px;
 }
 
 @media (min-width: 768px) {
