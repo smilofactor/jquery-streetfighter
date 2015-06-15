@@ -13,7 +13,8 @@ $(function() {
 			$(".ryu-throwing")
 			.mouseup(function() {
 				$(".ryu-throwing").hide();
-				$(".ryu-ready").show();
+				$(".ryu-ready").hide();
+				$(".ryu-still").show();
 
 			});
 		});
