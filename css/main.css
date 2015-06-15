@@ -6,6 +6,7 @@ body {
 .main {
 	padding-top: 110px;
     position: relative;
+    z-index: 1;
 }
 
 .gameview {
@@ -13,6 +14,7 @@ body {
 	width: 100%;
 	height: 500px;
 	border: 2px solid red;
+	padding-left: 100px;
 }
 
 .ryu-image {
