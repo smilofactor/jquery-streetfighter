@@ -3,24 +3,43 @@ body {
 }
 
 
-    .main {
-	    padding-top: 110px;
-	    position: relative;
-    }
+.main {
+	padding-top: 110px;
+    position: relative;
+}
 
-    .gameview {
-	    background-color: #fff;
-	    width: 100%;
-	    height: 500px;
-	   border: 2px solid red;
-    }
+.gameview {
+	background-color: #fff;
+	width: 100%;
+	height: 500px;
+	border: 2px solid red;
+}
 
-    .ryu-image {
-	    position: absolute;	
-	    border: 2px solid blue;
-	    height: 494px;
-	    width: 654px;
-	}
+.ryu-image {
+	position: absolute;
+	border: 2px solid blue;
+	height: 494px;
+	width: 654px;
+}
+
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');
+}
+
+.ryu-still {
+	background-image: url('../images/ryu-standing-still.png');
+	display: none;
+}
+
+.ryu-throwing {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+	display: none;
+}
+
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+	display: none;
+}
 
 @media (min-width: 768px) {
 }
