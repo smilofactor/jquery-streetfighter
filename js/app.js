@@ -22,11 +22,15 @@ $(document).ready(function() {
             $('.ryu-ready').show();
     });
     
-    //$('.ryu-game').keydown(function(exskey) {
-    $('.ryu-game').keydown(function() {
-        //if (exskey.which == '88') {
-            alert("An key pressed");
-            //}
+    $(document).keydown(function(ekskey) {
+        if (ekskey.which == '88') {
+            $('.ryu-image').hide();
+            $('.ryu-cool').show();
+            }
+        }).keyup(function() {
+            $('.ryu-still').show();
+            $('.ryu-cool').hide();
+
         });
     });
 
