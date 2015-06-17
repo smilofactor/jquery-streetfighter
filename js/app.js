@@ -17,12 +17,19 @@ $(document).ready(function() {
                 $(this).hide();
                 $(this).css('left', '520px');
             });
-        })
-        .mouseup(function() {
+    }).mouseup(function() {
             $('.ryu-throwing').hide();
             $('.ryu-ready').show();
+    });
+    
+    //$('.ryu-game').keydown(function(exskey) {
+    $('.ryu-game').keydown(function() {
+        //if (exskey.which == '88') {
+            alert("An key pressed");
+            //}
         });
-});
+    });
+
 
 function playHadouken() {
     $('#hadouken-sound')[0].volume = 0.5;
