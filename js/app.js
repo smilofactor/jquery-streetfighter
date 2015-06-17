@@ -1,5 +1,5 @@
 $(function() {
-	$(".ryu-still")
+	$(".ryu-game")
 	.mouseenter(function() {
 		$(".ryu-still").hide();
 		$(".ryu-ready").show();
@@ -12,6 +12,10 @@ $(function() {
         $(".ryu-still").hide();
         $(".ryu-throwing").show();
 
+    })
+    .mouseup(function() {
+        $(".ryu-still").show();
+        $(".ryu-throwing").hide();
     })
 });
 
