@@ -1,5 +1,6 @@
 body {
 	background-color: black;
+    font-family: comical;
 }
 
 
@@ -65,6 +66,16 @@ body {
 	z-index: 10;
 	top: 275px;
     left: 520px;
+}
+
+.present_game {
+    margin: 0 auto;
+    //width: 50%;
+    float: right;
+}
+
+.top_paragraph,
+.low_paragraph {
 }
 
 @media (min-width: 768px) {
